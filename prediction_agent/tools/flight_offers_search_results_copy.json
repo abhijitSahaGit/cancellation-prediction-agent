@@ -1,0 +1,857 @@
+[
+  {
+    "type": "flight-offer",
+    "id": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2025-08-04",
+    "lastTicketingDateTime": "2025-08-04",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT13H50M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "SYD",
+              "terminal": "0",
+              "at": "2025-08-15T06:55:00"
+            },
+            "arrival": {
+              "iataCode": "DPS",
+              "terminal": "I",
+              "at": "2025-08-15T11:25:00"
+            },
+            "carrierCode": "OD",
+            "number": "172",
+            "aircraft": {
+              "code": "738"
+            },
+            "operating": {
+              "carrierCode": "OD"
+            },
+            "duration": "PT6H30M",
+            "id": "7",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          },
+          {
+            "departure": {
+              "iataCode": "DPS",
+              "terminal": "D",
+              "at": "2025-08-15T14:20:00"
+            },
+            "arrival": {
+              "iataCode": "DMK",
+              "terminal": "0",
+              "at": "2025-08-15T17:45:00"
+            },
+            "carrierCode": "ID",
+            "number": "7637",
+            "aircraft": {
+              "code": "738"
+            },
+            "operating": {
+              "carrierCode": "ID"
+            },
+            "duration": "PT4H25M",
+            "id": "8",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "INR",
+      "total": "23007.00",
+      "base": "15530.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "23007.00"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+      "GP"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "INR",
+          "total": "23007.00",
+          "base": "15530.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "7",
+            "cabin": "ECONOMY",
+            "fareBasis": "XOWBSSAU",
+            "brandedFare": "SS",
+            "brandedFareLabel": "SUPER SAVER",
+            "class": "X",
+            "includedCheckedBags": {
+              "weight": 0,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "weight": 7,
+              "weightUnit": "KG"
+            },
+            "amenities": [
+              {
+                "description": "UPTO44LB 20KG BAGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "UPTO66LB 30KG BAGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "UPTO88LB40KG BAGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "UPTO22LB 10KG BAGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "MEALS",
+                "isChargeable": true,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              }
+            ]
+          },
+          {
+            "segmentId": "8",
+            "cabin": "ECONOMY",
+            "fareBasis": "XOWID",
+            "class": "X",
+            "includedCheckedBags": {
+              "weight": 0,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "2",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2025-08-05",
+    "lastTicketingDateTime": "2025-08-05",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT22H15M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "SYD",
+              "terminal": "1",
+              "at": "2025-08-15T12:50:00"
+            },
+            "arrival": {
+              "iataCode": "SIN",
+              "terminal": "1",
+              "at": "2025-08-15T19:15:00"
+            },
+            "carrierCode": "TR",
+            "number": "3",
+            "aircraft": {
+              "code": "789"
+            },
+            "operating": {
+              "carrierCode": "TR"
+            },
+            "duration": "PT8H25M",
+            "id": "1",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          },
+          {
+            "departure": {
+              "iataCode": "SIN",
+              "terminal": "1",
+              "at": "2025-08-16T06:30:00"
+            },
+            "arrival": {
+              "iataCode": "BKK",
+              "at": "2025-08-16T08:05:00"
+            },
+            "carrierCode": "TR",
+            "number": "608",
+            "aircraft": {
+              "code": "320"
+            },
+            "operating": {
+              "carrierCode": "TR"
+            },
+            "duration": "PT2H35M",
+            "id": "2",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "INR",
+      "total": "29810.00",
+      "base": "17410.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "29810.00"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "HR"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "INR",
+          "total": "29810.00",
+          "base": "17410.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "1",
+            "cabin": "ECONOMY",
+            "fareBasis": "O2TR24",
+            "class": "O",
+            "includedCheckedBags": {
+              "weight": 30,
+              "weightUnit": "KG"
+            }
+          },
+          {
+            "segmentId": "2",
+            "cabin": "ECONOMY",
+            "fareBasis": "O2TR24",
+            "class": "O",
+            "includedCheckedBags": {
+              "weight": 30,
+              "weightUnit": "KG"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "3",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2025-08-15",
+    "lastTicketingDateTime": "2025-08-15",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT16H25M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "SYD",
+              "terminal": "1",
+              "at": "2025-08-15T11:25:00"
+            },
+            "arrival": {
+              "iataCode": "XMN",
+              "terminal": "3",
+              "at": "2025-08-15T18:50:00"
+            },
+            "carrierCode": "MF",
+            "number": "802",
+            "aircraft": {
+              "code": "789"
+            },
+            "operating": {
+              "carrierCode": "MF"
+            },
+            "duration": "PT9H25M",
+            "id": "3",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          },
+          {
+            "departure": {
+              "iataCode": "XMN",
+              "terminal": "3",
+              "at": "2025-08-15T22:20:00"
+            },
+            "arrival": {
+              "iataCode": "BKK",
+              "at": "2025-08-16T00:50:00"
+            },
+            "carrierCode": "MF",
+            "number": "843",
+            "aircraft": {
+              "code": "738"
+            },
+            "operating": {
+              "carrierCode": "MF"
+            },
+            "duration": "PT3H30M",
+            "id": "4",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "INR",
+      "total": "31687.00",
+      "base": "16955.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "31687.00",
+      "additionalServices": [
+        {
+          "amount": "16902",
+          "type": "CHECKED_BAGS"
+        }
+      ]
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "MF"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "INR",
+          "total": "31687.00",
+          "base": "16955.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "3",
+            "cabin": "ECONOMY",
+            "fareBasis": "SOW6AAUS",
+            "brandedFare": "YSTANDARD",
+            "brandedFareLabel": "ECONOMY STANDARD",
+            "class": "S",
+            "includedCheckedBags": {
+              "quantity": 1
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            },
+            "amenities": [
+              {
+                "description": "CHECKED BAG 1PC OF 23KG 158CM",
+                "isChargeable": false,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "REFUNDABLE  TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "CHANGEABLE  TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              }
+            ]
+          },
+          {
+            "segmentId": "4",
+            "cabin": "ECONOMY",
+            "fareBasis": "SOW6AAUS",
+            "brandedFare": "YSTANDARD",
+            "brandedFareLabel": "ECONOMY STANDARD",
+            "class": "S",
+            "includedCheckedBags": {
+              "quantity": 1
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            },
+            "amenities": [
+              {
+                "description": "CHECKED BAG 1PC OF 23KG 158CM",
+                "isChargeable": false,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "REFUNDABLE  TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "CHANGEABLE  TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "4",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2025-08-15",
+    "lastTicketingDateTime": "2025-08-15",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT26H50M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "SYD",
+              "terminal": "1",
+              "at": "2025-08-15T11:25:00"
+            },
+            "arrival": {
+              "iataCode": "XMN",
+              "terminal": "3",
+              "at": "2025-08-15T18:50:00"
+            },
+            "carrierCode": "MF",
+            "number": "802",
+            "aircraft": {
+              "code": "789"
+            },
+            "operating": {
+              "carrierCode": "MF"
+            },
+            "duration": "PT9H25M",
+            "id": "9",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          },
+          {
+            "departure": {
+              "iataCode": "XMN",
+              "terminal": "3",
+              "at": "2025-08-16T08:50:00"
+            },
+            "arrival": {
+              "iataCode": "BKK",
+              "at": "2025-08-16T11:15:00"
+            },
+            "carrierCode": "MF",
+            "number": "853",
+            "aircraft": {
+              "code": "738"
+            },
+            "operating": {
+              "carrierCode": "MF"
+            },
+            "duration": "PT3H25M",
+            "id": "10",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "INR",
+      "total": "31687.00",
+      "base": "16955.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "31687.00",
+      "additionalServices": [
+        {
+          "amount": "16902",
+          "type": "CHECKED_BAGS"
+        }
+      ]
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "MF"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "INR",
+          "total": "31687.00",
+          "base": "16955.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "9",
+            "cabin": "ECONOMY",
+            "fareBasis": "SOW6AAUS",
+            "brandedFare": "YSTANDARD",
+            "brandedFareLabel": "ECONOMY STANDARD",
+            "class": "S",
+            "includedCheckedBags": {
+              "quantity": 1
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            },
+            "amenities": [
+              {
+                "description": "CHECKED BAG 1PC OF 23KG 158CM",
+                "isChargeable": false,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "REFUNDABLE  TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "CHANGEABLE  TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              }
+            ]
+          },
+          {
+            "segmentId": "10",
+            "cabin": "ECONOMY",
+            "fareBasis": "SOW6AAUS",
+            "brandedFare": "YSTANDARD",
+            "brandedFareLabel": "ECONOMY STANDARD",
+            "class": "S",
+            "includedCheckedBags": {
+              "quantity": 1
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            },
+            "amenities": [
+              {
+                "description": "CHECKED BAG 1PC OF 23KG 158CM",
+                "isChargeable": false,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "REFUNDABLE  TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "CHANGEABLE  TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "5",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2025-08-15",
+    "lastTicketingDateTime": "2025-08-15",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT28H25M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "SYD",
+              "terminal": "1",
+              "at": "2025-08-15T11:45:00"
+            },
+            "arrival": {
+              "iataCode": "CGK",
+              "terminal": "3",
+              "at": "2025-08-15T16:30:00"
+            },
+            "carrierCode": "GA",
+            "number": "713",
+            "aircraft": {
+              "code": "333"
+            },
+            "operating": {
+              "carrierCode": "GA"
+            },
+            "duration": "PT7H45M",
+            "id": "5",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          },
+          {
+            "departure": {
+              "iataCode": "CGK",
+              "terminal": "3",
+              "at": "2025-08-16T09:45:00"
+            },
+            "arrival": {
+              "iataCode": "BKK",
+              "at": "2025-08-16T13:10:00"
+            },
+            "carrierCode": "GA",
+            "number": "866",
+            "aircraft": {
+              "code": "738"
+            },
+            "operating": {
+              "carrierCode": "GA"
+            },
+            "duration": "PT3H25M",
+            "id": "6",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "INR",
+      "total": "32844.00",
+      "base": "18155.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "32844.00"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "GA"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "INR",
+          "total": "32844.00",
+          "base": "18155.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "5",
+            "cabin": "ECONOMY",
+            "fareBasis": "HOXNWAUS",
+            "class": "H",
+            "includedCheckedBags": {
+              "weight": 30,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            }
+          },
+          {
+            "segmentId": "6",
+            "cabin": "ECONOMY",
+            "fareBasis": "HOXNWAUS",
+            "class": "H",
+            "includedCheckedBags": {
+              "weight": 30,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
