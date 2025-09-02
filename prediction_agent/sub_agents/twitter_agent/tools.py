@@ -43,5 +43,3 @@ def search_tweets(query: str, max_results: int = 5) -> dict:
         }
     except requests.exceptions.RequestException as e:
         return {"status": "error", "error_message": str(e)}
-
-    

@@ -1,1 +1,721 @@
-[]
+[
+  {
+    "type": "flight-offer",
+    "id": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2025-09-01",
+    "lastTicketingDateTime": "2025-09-01",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT3H45M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "DMK",
+              "terminal": "1",
+              "at": "2025-09-17T21:10:00"
+            },
+            "arrival": {
+              "iataCode": "BLR",
+              "terminal": "2",
+              "at": "2025-09-17T23:25:00"
+            },
+            "carrierCode": "SL",
+            "number": "216",
+            "aircraft": {
+              "code": "738"
+            },
+            "operating": {
+              "carrierCode": "SL"
+            },
+            "duration": "PT3H45M",
+            "id": "5",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "INR",
+      "total": "10858.00",
+      "base": "4255.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "10858.00"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+      "GP"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "INR",
+          "total": "10858.00",
+          "base": "4255.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "5",
+            "cabin": "ECONOMY",
+            "fareBasis": "OOW",
+            "class": "O",
+            "includedCheckedBags": {
+              "weight": 0,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "2",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2025-09-17",
+    "lastTicketingDateTime": "2025-09-17",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT8H50M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "BKK",
+              "at": "2025-09-17T11:15:00"
+            },
+            "arrival": {
+              "iataCode": "BOM",
+              "terminal": "2",
+              "at": "2025-09-17T14:45:00"
+            },
+            "carrierCode": "AI",
+            "number": "338",
+            "aircraft": {
+              "code": "32N"
+            },
+            "operating": {
+              "carrierCode": "AI"
+            },
+            "duration": "PT5H",
+            "id": "6",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          },
+          {
+            "departure": {
+              "iataCode": "BOM",
+              "terminal": "2",
+              "at": "2025-09-17T16:40:00"
+            },
+            "arrival": {
+              "iataCode": "BLR",
+              "terminal": "1",
+              "at": "2025-09-17T18:35:00"
+            },
+            "carrierCode": "AI",
+            "number": "2607",
+            "aircraft": {
+              "code": "32N"
+            },
+            "operating": {
+              "carrierCode": "AI"
+            },
+            "duration": "PT1H55M",
+            "id": "7",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "INR",
+      "total": "14650.00",
+      "base": "8745.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "14650.00"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "AI"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "INR",
+          "total": "14650.00",
+          "base": "8745.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "6",
+            "cabin": "ECONOMY",
+            "fareBasis": "TL3YXSBK",
+            "brandedFare": "ECOVALU",
+            "brandedFareLabel": "ECO VALUE",
+            "class": "T",
+            "includedCheckedBags": {
+              "weight": 25,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "weight": 7,
+              "weightUnit": "KG"
+            },
+            "amenities": [
+              {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": false,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "MEAL SERVICES",
+                "isChargeable": false,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "REFUNDABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "UPGRADE",
+                "isChargeable": true,
+                "amenityType": "UPGRADES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "FREE CHECKED BAGGAGE ALLOWANCE",
+                "isChargeable": false,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              }
+            ]
+          },
+          {
+            "segmentId": "7",
+            "cabin": "ECONOMY",
+            "fareBasis": "TL3YXSBK",
+            "brandedFare": "ECOVALU",
+            "brandedFareLabel": "ECO VALUE",
+            "class": "T",
+            "includedCheckedBags": {
+              "weight": 25,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "weight": 7,
+              "weightUnit": "KG"
+            },
+            "amenities": [
+              {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": false,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "MEAL SERVICES",
+                "isChargeable": false,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "REFUNDABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "UPGRADE",
+                "isChargeable": true,
+                "amenityType": "UPGRADES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              },
+              {
+                "description": "FREE CHECKED BAGGAGE ALLOWANCE",
+                "isChargeable": false,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                  "name": "BrandedFare"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "3",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2025-09-17",
+    "lastTicketingDateTime": "2025-09-17",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT12H30M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "BKK",
+              "at": "2025-09-17T15:20:00"
+            },
+            "arrival": {
+              "iataCode": "CMB",
+              "at": "2025-09-17T17:10:00"
+            },
+            "carrierCode": "UL",
+            "number": "405",
+            "aircraft": {
+              "code": "32B"
+            },
+            "operating": {
+              "carrierCode": "UL"
+            },
+            "duration": "PT3H20M",
+            "id": "3",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          },
+          {
+            "departure": {
+              "iataCode": "CMB",
+              "at": "2025-09-18T00:55:00"
+            },
+            "arrival": {
+              "iataCode": "BLR",
+              "terminal": "2",
+              "at": "2025-09-18T02:20:00"
+            },
+            "carrierCode": "UL",
+            "number": "173",
+            "aircraft": {
+              "code": "320"
+            },
+            "operating": {
+              "carrierCode": "UL"
+            },
+            "duration": "PT1H25M",
+            "id": "4",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "INR",
+      "total": "14778.00",
+      "base": "7460.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "14778.00"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "UL"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "INR",
+          "total": "14778.00",
+          "base": "7460.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "3",
+            "cabin": "ECONOMY",
+            "fareBasis": "SOWTH",
+            "class": "S",
+            "includedCheckedBags": {
+              "weight": 30,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            }
+          },
+          {
+            "segmentId": "4",
+            "cabin": "ECONOMY",
+            "fareBasis": "SOWTH",
+            "class": "S",
+            "includedCheckedBags": {
+              "weight": 30,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "4",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2025-09-17",
+    "lastTicketingDateTime": "2025-09-17",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT18H50M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "BKK",
+              "at": "2025-09-17T15:20:00"
+            },
+            "arrival": {
+              "iataCode": "CMB",
+              "at": "2025-09-17T17:10:00"
+            },
+            "carrierCode": "UL",
+            "number": "405",
+            "aircraft": {
+              "code": "32B"
+            },
+            "operating": {
+              "carrierCode": "UL"
+            },
+            "duration": "PT3H20M",
+            "id": "8",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          },
+          {
+            "departure": {
+              "iataCode": "CMB",
+              "at": "2025-09-18T07:20:00"
+            },
+            "arrival": {
+              "iataCode": "BLR",
+              "terminal": "2",
+              "at": "2025-09-18T08:40:00"
+            },
+            "carrierCode": "UL",
+            "number": "1173",
+            "aircraft": {
+              "code": "32B"
+            },
+            "operating": {
+              "carrierCode": "UL"
+            },
+            "duration": "PT1H20M",
+            "id": "9",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "INR",
+      "total": "14778.00",
+      "base": "7460.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "14778.00"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "UL"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "INR",
+          "total": "14778.00",
+          "base": "7460.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "8",
+            "cabin": "ECONOMY",
+            "fareBasis": "SOWTH",
+            "class": "S",
+            "includedCheckedBags": {
+              "weight": 30,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            }
+          },
+          {
+            "segmentId": "9",
+            "cabin": "ECONOMY",
+            "fareBasis": "SOWTH",
+            "class": "S",
+            "includedCheckedBags": {
+              "weight": 30,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-offer",
+    "id": "5",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2025-09-17",
+    "lastTicketingDateTime": "2025-09-17",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+      {
+        "duration": "PT20H5M",
+        "segments": [
+          {
+            "departure": {
+              "iataCode": "BKK",
+              "at": "2025-09-17T07:45:00"
+            },
+            "arrival": {
+              "iataCode": "CMB",
+              "at": "2025-09-17T09:35:00"
+            },
+            "carrierCode": "UL",
+            "number": "403",
+            "aircraft": {
+              "code": "320"
+            },
+            "operating": {
+              "carrierCode": "UL"
+            },
+            "duration": "PT3H20M",
+            "id": "1",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          },
+          {
+            "departure": {
+              "iataCode": "CMB",
+              "at": "2025-09-18T00:55:00"
+            },
+            "arrival": {
+              "iataCode": "BLR",
+              "terminal": "2",
+              "at": "2025-09-18T02:20:00"
+            },
+            "carrierCode": "UL",
+            "number": "173",
+            "aircraft": {
+              "code": "320"
+            },
+            "operating": {
+              "carrierCode": "UL"
+            },
+            "duration": "PT1H25M",
+            "id": "2",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+          }
+        ]
+      }
+    ],
+    "price": {
+      "currency": "INR",
+      "total": "14778.00",
+      "base": "7460.00",
+      "fees": [
+        {
+          "amount": "0.00",
+          "type": "SUPPLIER"
+        },
+        {
+          "amount": "0.00",
+          "type": "TICKETING"
+        }
+      ],
+      "grandTotal": "14778.00"
+    },
+    "pricingOptions": {
+      "fareType": [
+        "PUBLISHED"
+      ],
+      "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+      "UL"
+    ],
+    "travelerPricings": [
+      {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+          "currency": "INR",
+          "total": "14778.00",
+          "base": "7460.00"
+        },
+        "fareDetailsBySegment": [
+          {
+            "segmentId": "1",
+            "cabin": "ECONOMY",
+            "fareBasis": "SOWTH",
+            "class": "S",
+            "includedCheckedBags": {
+              "weight": 30,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            }
+          },
+          {
+            "segmentId": "2",
+            "cabin": "ECONOMY",
+            "fareBasis": "SOWTH",
+            "class": "S",
+            "includedCheckedBags": {
+              "weight": 30,
+              "weightUnit": "KG"
+            },
+            "includedCabinBags": {
+              "quantity": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

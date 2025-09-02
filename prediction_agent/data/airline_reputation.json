@@ -1,0 +1,17 @@
+{
+    "IndiGo Bengaluru-Bangkok": {
+        "Cancellations": "Extremely Rare",
+        "Average Delay": "~86 minutes",
+        "Punctuality Rate": "~81%"
+    },
+    "Thai Airways Bengaluru-Bangkok": {
+        "Cancellations": "Extremely Rare – No reported cancellations",
+        "Average Delay": "20 minutes",
+        "Punctuality Rate": "~85%"
+    },
+    "Air India Bengaluru-Bangkok": {
+        "Cancellations": "Extremely Rare",
+        "Average Delay": "~20 minutes",
+        "Punctuality Rate": "~47%"
+    }
+}

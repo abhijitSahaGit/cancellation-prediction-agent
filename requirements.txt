@@ -1,3 +1,4 @@
+googlesearch-python
 google-adk[database]==0.3.0
 tweepy
 litellm==1.66.3

@@ -6,7 +6,7 @@ import json
 load_dotenv()
 
 MOCK_VISA_RESTRICTION = os.getenv("MOCK_VISA_RESTRICTION", "FALSE").upper() == "TRUE"
-VISA_RESTRICTION_FILE = "prediction_agent/tools/visa_restriction.json"
+VISA_RESTRICTION_FILE = "prediction_agent/data/visa_restriction.json"
 
 def get_visa_restriction(country: str) -> dict:
 
